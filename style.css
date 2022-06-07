@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+}
+/* Cabeçario */
+#logo {
+    width: 200px;
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#cabeçario {
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+    margin-top: 30px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#cabeçario ul li {
+    list-style-type: none;
+    display: inline;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 26px;
+}
+
+.link:visited {
+    color: black;
+}
+
+.link:link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: black;
+}
+
+/* Conteúdo */
+main {
+    margin: 50px;
+}
+
+p,
+h1,
+li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.quadro {
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.refugiadas {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 42vw;
+}
+
+
+
+/* Responsabilidade */
+@media screen and (max-width: 500px) {
+    #cabeçario {
+        text-align: center;
+        padding: 20px;
+        margin: 10px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
+    }
+
+    #cabeçario ul li {
+        list-style-type: none;
+        display: inline;
+        margin-top: 20px;
+        padding: 5px;
+        font-size: 26px;
+    }
+
+    main {
+        margin: 10px;
+    }
+
+    #quadro {
+        border-radius: 5px;
+        padding: 15px;
+    }
+
+    #logo {
+        width: 200px;
+        float: left;
+    }
+
+    .refugiadas {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+    }
+}
